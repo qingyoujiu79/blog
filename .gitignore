@@ -1,0 +1,4 @@
+serve.py
+serve.log
+blog-serve.err.log
+*.bak
