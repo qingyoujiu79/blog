@@ -22,18 +22,7 @@
 
 <footer class="footer" id="footer"></footer>
 
-<div class="kanban" id="kanban">
-  <div class="bubble" id="bubble"></div>
-  <img src="assets/img/kanban.webp" alt="看板娘">
-</div>
-
 <div class="dock">
-  <button class="dock-btn" id="kanbanBtn" aria-label="看板娘">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="2.6"/>
-      <path d="M12 3.2c1.9 0 3.2 1.5 3.2 3.2 0 .8-.3 1.5-.8 2M12 20.8c-1.9 0-3.2-1.5-3.2-3.2 0-.8.3-1.5.8-2M3.2 12c0-1.9 1.5-3.2 3.2-3.2.8 0 1.5.3 2 .8M20.8 12c0 1.9-1.5 3.2-3.2 3.2-.8 0-1.5-.3-2-.8"/>
-    </svg>
-  </button>
   <button class="dock-btn" id="toTop" aria-label="回到顶部">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 6-6 6 6"/></svg>
   </button>
@@ -49,10 +38,5 @@
 <script src="assets/js/data.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/sakura.js"></script>
-<script>
-  document.getElementById('kanbanBtn').addEventListener('click', function () {
-    document.getElementById('kanban').classList.toggle('hide');
-  });
-</script>
 </body>
 </html>
